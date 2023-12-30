@@ -1,6 +1,6 @@
 #include "LedControl.h"
 
-//def analog pins
+// def analog pins
 #define VRX_PIN  A1 
 #define VRY_PIN  A0 
 
