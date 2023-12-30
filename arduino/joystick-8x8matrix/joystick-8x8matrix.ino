@@ -4,7 +4,7 @@
 #define VRX_PIN  A1 
 #define VRY_PIN  A0 
 
-// jjoyS values
+// joyS values
 int xValue = 0; 
 int yValue = 0; 
 const int switchPin = 2;
