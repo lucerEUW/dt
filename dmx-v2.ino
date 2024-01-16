@@ -1,7 +1,6 @@
 #include"DmxSimple.h"
 #include<string.h>
 
-//thunderstruck acdc -- 134 bpm --from 20s
 //setting up pins
 void setup(){
   DmxSimple.usePin(3);
@@ -170,6 +169,7 @@ void sound(int type){
   }
 }
 
+//thunderstruck acdc -- 134 bpm --from 20s
 //20s-50s
 void  structure(){
   //intro cymbalhighlighting x 6
@@ -191,8 +191,8 @@ void  structure(){
     int randomPan   = random(200);
     int randomTilt  = random(200);
 
-    movingHead(1, randomPan,        randomTilt, 255);
-    movingHead(2, randomPan,   randomTilt, 255);
+    movingHead(1, randomPan,    randomTilt, 255);
+    movingHead(2, randomPan,    randomTilt, 255);
 
     sound(2);
 
